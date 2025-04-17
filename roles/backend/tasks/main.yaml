@@ -47,7 +47,6 @@
 
 - name: copy backend service
   ansible.builtin.template:
-    #it will search in templates folder # update from copy to template. # copy module it will search in files
     src: backend.service.j2
     dest: /etc/systemd/system/backend.service
 
