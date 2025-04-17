@@ -1,4 +1,2 @@
 dependencies:
   - role: common
-# we will mention role dependencies in meta folder
-# backend depends on common role.
